@@ -451,7 +451,7 @@ form.addEventListener('submit', e => {
     f.message && 'Message: ' + f.message
   ].filter(Boolean).join('\n');
   const url = via === 'wa'
-    ? 'https://wa.me/971558319935?text=' + encodeURIComponent(lines)
+    ? 'https://wa.me/971562543334?text=' + encodeURIComponent(lines)
     : 'mailto:info@firstoptiondxb.com?subject=' + encodeURIComponent('Quote request – ' + (f.show || f.type)) + '&body=' + encodeURIComponent(lines);
   hint.style.color = ''; hint.textContent = via === 'wa' ? 'Opening WhatsApp…' : 'Opening your email app…';
   if (via === 'wa'){ const w = window.open(url, '_blank', 'noopener'); if (!w) location.href = url; }
